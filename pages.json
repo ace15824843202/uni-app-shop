@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/news/news"
+		},
+		{
+			"path": "pages/cart/cart"
+		},
+		{
+			"path": "pages/member/member"
+		},
+		{
+			"path": "pages/goods/goods",
+			"style":{
+				"navigationBarTitleText":"热门商品",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/goods/goodsDetailed"
+		
+		},
+		{
+			"path": "pages/aboutUs/aboutUs",
+			"style":{
+				"navigationBarTitleText":"联系我们"
+			}
+		},
+		{
+			"path": "pages/pics/pics",
+			"style":{
+				"navigationBarTitleText":"社区图片"
+			}
+		},
+		{
+			"path": "pages/videos/videos"
+		
+		},
+		{
+			"path": "pages/news/newsDetailed"
+		
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#d0d0d0",
+		"selectedColor":"#bd2c29",
+		"backgroundColor":"#f7f7fa",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"static/img/home.png",
+				"selectedIconPath":"static/img/home-active.png"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"资讯",
+				"iconPath":"static/img/news.png",
+				"selectedIconPath":"static/img/news-active.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"购物车",
+				"iconPath":"static/img/cart.png",
+				"selectedIconPath":"static/img/cart-active.png"
+			},
+			{
+				"pagePath":"pages/member/member",
+				"text":"会员",
+				"iconPath":"static/img/member.png",
+				"selectedIconPath":"static/img/member-active.png"
+			}
+			
+		]
+	}
+
+}
